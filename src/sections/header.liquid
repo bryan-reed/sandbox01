@@ -11,6 +11,28 @@
   - Home page only: only shows on the home page
 {%- endcomment -%}
 <section data-section-id="{{ section.id }}" data-section-type="header">
+<div class="columns">
+  <div class="column has-text-centered-tablet	">1</div>
+  <div class="column has-text-centered-tablet	">2</div>
+  <div class="column has-text-centered-tablet	">3</div>
+  <div class="column has-text-centered-tablet	">4</div>
+  <div class="column has-text-centered-tablet	">5</div>
+</div>
+<a class="button">
+  Button
+</a>
+
+<a class="button is-primary">
+  Primary button
+</a>
+
+<a class="button is-large">
+  Large button
+</a>
+
+<a class="button is-loading">
+  Loading button
+</a>
   {%- if section.settings.announcement_bar_enabled -%}
     <div>
       {%- if section.settings.announcement_bar_home_page_only == false or template.name == 'index' -%}
